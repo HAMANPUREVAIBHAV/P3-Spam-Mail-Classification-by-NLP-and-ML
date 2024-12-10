@@ -19,17 +19,18 @@ The project utilizes the **Multinomial Naive Bayes classifier** and the **CountV
    cd Spam-Mail-Classification
    ```
 # Create a virtual environment (optional but recommended):
-
-    ```bash
+```bash
     python -m venv venv
-    ```
+   ```
+
 - source venv/bin/activate  # On Windows, use venv\Scripts\activate
 
 ## Install the required packages:
 
-    ```bash
+```bash
     pip install -r requirements.txt
-    ```
+   ```
+   
 # This will install the following dependencies:
 
 - pandas
@@ -39,9 +40,10 @@ The project utilizes the **Multinomial Naive Bayes classifier** and the **CountV
 - streamlit
 ## Run the Streamlit app:
 
-    ```bash
+```bash
     streamlit run SpamDetector.py
-    ```
+   ```
+
 - This will launch the application in your default web browser, allowing you to input email content and classify it as spam or ham.
 
 ## Dataset
