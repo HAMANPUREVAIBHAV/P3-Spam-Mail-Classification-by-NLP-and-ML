@@ -78,7 +78,5 @@ Here’s a preview of the Streamlit app interface for spam classification:
 - Naive Bayes algorithm for classification.
 - Streamlit for providing an easy-to-use interface for building the web app.
 - The pandas, scikit-learn, and matplotlib libraries for data processing, model building, and visualization.
-- vbnet
-- Copy code
 
 
