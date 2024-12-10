@@ -10,30 +10,24 @@ The project utilizes the **Multinomial Naive Bayes classifier** and the **CountV
 - **Streamlit** app interface for real-time classification.
 - **Pickle** used for saving and loading the trained model and vectorizer.
 
-## Project Structure
-Spam-Mail-Classification/ │ ├── SpamDetector.py # Main Python script for classification and Streamlit app ├── spam.pkl # Saved trained Naive Bayes model ├── vec.pkl # Saved CountVectorizer model ├── spam.csv # Dataset used for training the model ├── requirements.txt # List of required Python packages ├── README.md # Project documentation └── .gitignore # Git ignore file for excluding unnecessary files
-
-bash
-Copy code
-
 ## Setup and Installation
 
 1. **Clone the repository:**
 
-   ```
+```bash
    git clone https://github.com/HAMANPUREVAIBHAV/P3-Spam-Mail-Classification-by-NLP-and-ML
    cd Spam-Mail-Classification
    ```
 # Create a virtual environment (optional but recommended):
 
-    ```
+    ```bash
     python -m venv venv
     ```
 - source venv/bin/activate  # On Windows, use venv\Scripts\activate
 
 ## Install the required packages:
 
-    ```
+    ```bash
     pip install -r requirements.txt
     ```
 # This will install the following dependencies:
@@ -45,7 +39,7 @@ Copy code
 - streamlit
 ## Run the Streamlit app:
 
-    ``
+    ```bash
     streamlit run SpamDetector.py
     ```
 - This will launch the application in your default web browser, allowing you to input email content and classify it as spam or ham.
